@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from datetime import date, datetime
+from datetime import datetime
 from django.template import Template, Context, loader
 from django.shortcuts import render
 from AppClientes.models import Cliente

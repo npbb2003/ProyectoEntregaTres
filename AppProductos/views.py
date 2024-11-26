@@ -10,14 +10,14 @@ def inicio(req):
 
 def sesionesFotograficas(req):
 
-    return HttpResponse("vista sesiones fotograficas")
+    return render(req, "appproductos/sesionesFotograficas.html")
 
 
 def copiasImpresas(req):
 
-    return HttpResponse("vista copias impresas")
+    return render(req, "appproductos/copias.html")
 
 
 def fotolibros(req):
 
-    return HttpResponse("vista fotolibros")
+    return render(req, "appproductos/fotolibros.html")
